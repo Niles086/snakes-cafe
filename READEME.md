@@ -1,4 +1,26 @@
-# code explination
+# LAB - Class 01
+
+Project: snakes-cafe
+Author: Niles Thompson
+Links and Resources
+[github repo](https://github.com/Niles086/snakes-cafe)
+back-end server url (when applicable)
+front-end application (when applicable)
+Setup
+.env requirements (where applicable)
+i.e.
+
+PORT - Port Number
+DATABASE_URL - URL to the running Postgres instance/db
+How to initialize/run your application (where applicable)
+e.g. python main.py
+How to use your library (where applicable)
+Tests
+How do you run tests? Just ran the program 
+Any tests of note?
+Describe any tests that you did not complete, skipped, etc
+
+## code explination
 
 print("**************************************")
 print("**    Welcome to the Snakes Cafe!   **")
@@ -57,5 +79,5 @@ order = {}
             print("Your order:")
             for item, count in order.items():
                 print(f"{count} order{'s' if count > 1 else ''} of {item}")
-                
+
 ## Finally, this part of the code prints the user's final order, iterating over the order dictionary and displaying the count and name of each item.
